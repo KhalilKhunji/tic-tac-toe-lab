@@ -92,7 +92,7 @@ const updateMessage = () => {
     } else if(winner === false && tie === true) {
         messageEl.innerText = "It's a tie!";
     } else {
-        messageEl.innerText = 'Player wins!';
+        messageEl.innerText = `Player ${turn} wins!`;
     };
 };
 
