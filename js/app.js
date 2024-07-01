@@ -108,6 +108,8 @@ const init = () => {
     tie = false;
     render();
 };
+
+window.onload = init();
 /*----------------------------- Event Listeners -----------------------------*/
 squareEls.forEach((squareEl) => {
     squareEl.addEventListener('click',handleClick);
